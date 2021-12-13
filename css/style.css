@@ -1,0 +1,246 @@
+/* importing fonts */
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Montserrat:wght@400;900&family=Ubuntu:wght@700&display=swap');
+/* font families imported - (their rules) */
+/* font-family: 'Dosis', sans-serif;
+font-family: 'Montserrat', sans-serif; 
+font-family: 'Cabin', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Staatliches', cursive;*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* general styling */
+
+section{
+    scroll-behavior: smooth;
+}
+
+/* styling section 1 */
+.section1{
+    text-align: left;
+}
+
+
+.welcome{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.navbar{
+    margin-bottom: 3rem;
+}
+
+.section1{
+    background-color: rgb(255, 89, 103);
+    padding: 3rem 12%;
+}
+
+
+.carImg{
+    border-radius: 4rem;
+    transform: rotate(15deg);
+    margin: 2rem 0 2rem 0;
+    transition: all 1s;
+}
+
+.carImg:hover{
+    transform: rotate(0deg);
+    transition: all 1s;
+}
+
+.home p{
+    margin-top: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2;
+    color: #fff;
+}
+
+/* navigation bar */
+
+.navbar{
+    font-family: 'Ubuntu', sans-serif;
+    padding:0 0 5rem 0!important;
+}
+
+.navbar-brand{
+    font-size: 2.5rem!important;
+    font-weight: bold!important;
+}
+
+.nav-item{
+    padding: 0 1.2rem;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family:'Montserrat', sans-serif ;
+    font-weight: light;
+}
+
+.section1 .home .btn, .likeBtn, .pricing-btn{
+    margin: 2rem 0.1rem;
+    height: 4rem;
+    width: 10rem;
+    text-decoration: none;
+}
+
+/* customising belief area (section2) */
+
+.belief{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 8%!important;
+}
+
+.belief h2{
+    font-size: 1.5rem!important;
+    margin: 1rem 0 1rem 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.belief p{
+    color: rgb(0, 0, 0);
+    font-size: 0.8rem!important;
+}
+
+
+.beliefIcons{
+    color: rgb(207, 63, 87);
+}
+
+.beliefIcons:hover{
+    color: rgb(151, 2, 27);
+}
+
+.row{
+    margin-right: 0px!important;
+    margin-left: 0px!important;
+}
+
+/* customising section3 (about cars) */
+
+.section3{
+    background-color: rgb(253, 115, 126);
+    text-align: center;
+}
+
+.carInfo{
+    color: #fff;
+    line-height: 1.8rem;
+    padding: 0 10%;
+    letter-spacing: 1px;
+    font-family: 'Staatliches', cursive;
+    font-size: large;
+}
+
+.carHeading{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 2%;
+}
+
+.Info-Intro{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    color: #fff;
+    padding: 7rem 0;
+    margin: 0  0 5rem 0;
+}
+
+.container{
+    padding: 5% 4%!important;
+}
+
+.info-image{
+    padding: 6% 0 ;
+}
+
+.car-list{
+    height: 30%!important;
+    padding: 3rem;
+}
+
+/* font-family: 'Montserrat', sans-serif; 
+font-family: 'Ubuntu', sans-serif; */
+
+
+/* customising pricing part */
+.section4 .list-group-item{
+    background-color: #343a40!important;
+}
+
+
+.section4 .card{
+    padding: 1.7rem 3.5rem;
+    margin: 1.5rem 0;
+    border-radius: 1rem!important;
+}
+
+.section4 .card h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+.section4 .card p{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
+}
+
+.prime h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 250%;
+}
+
+.prime{
+    padding: 2rem 9%;
+    text-align: center;
+}
+
+
+/* customising section 5 */
+
+.end-greet{
+    background-color: rgb(255, 89, 103);
+    text-align: center;
+    padding: 10% 10%!important;
+    
+}
+.end-greet h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bolder;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.endbtn{
+    margin: 1rem 0 0.5rem 0;
+}
+
+.branding{
+    margin-top: 4rem;
+    justify-content: space-between;
+    color: rgb(87, 87, 87);
+}
+
+
+.social-icon{
+    margin: 0 5px;
+}
+
+
+@media (max-width: 768px){
+    .home{
+        text-align: center!important;
+    }
+}
